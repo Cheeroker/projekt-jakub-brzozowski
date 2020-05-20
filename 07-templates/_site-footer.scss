@@ -1,0 +1,53 @@
+.t-site-footer{
+    
+    &__content{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: $grid-base * 3;
+        padding-top: $grid-base * 3;
+    }
+
+    &__link{
+        display: block;
+        color: $dirty-white;
+        margin-bottom: $grid-base;
+        margin-top: $grid-base;
+
+        &:hover{
+            color: $dirty-white;
+        }
+    }
+
+    &__heading{
+        color: $white;
+        margin-bottom: $grid-base;
+    }
+
+    &__divider{
+        background: $navy-gradient;
+        height: 2px;
+    }
+
+    &__text{
+        display: block;
+        color: $dirty-white;
+        margin-top: $grid-base;
+    }
+
+    &__newsletter{
+        margin-top: $grid-base;
+        margin-bottom: $grid-base;
+        align-items: center;
+    }
+
+    &__button{
+        padding: .4rem .4rem .35rem .4rem;
+        width: $grid-base * 10;
+        margin-left: $grid-base * .5;
+    }
+
+    &__copyright{
+        color: $blue-text;
+        font-size: $font-size-6;
+    }
+}

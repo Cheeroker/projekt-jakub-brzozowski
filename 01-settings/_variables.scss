@@ -1,9 +1,11 @@
 // Kolory
 $white: #FFFFFF;
+$dirty-white: #b2c8da;
 $black: #000000;
 $gray-dark: #302F2F;
 $blue-blue-text: #3E5CC5;
 $blue-navy: #1c384e;
+$blue-navy-dark: #142533;
 $blue-light: #ebf5fc;
 $blue-text: #3B99E1;
 $blue-header: #020B14;
@@ -13,6 +15,7 @@ $blue-dark: #442444;
 $gray-light: #5c5656;
 
 $blue-gradient: linear-gradient(0deg, #2b92e0 0%, #1d69a3 100%);
+$navy-gradient: linear-gradient(0deg, #244E70 0%, #142533 100%, );
 
 // Tekst
 $font-size-base: 1rem;
