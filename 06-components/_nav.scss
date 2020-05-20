@@ -2,21 +2,17 @@
 
     &__item{
         color: $white;
-        display: block;
+        display: inline-block;
         font-size: $font-size-5;
         padding-bottom: $grid-base * 0.75;
         padding-top: $grid-base * 0.75;
         text-align: center;
         width: 100%;
-
+        margin-left: $grid-base * 5;
+        width: auto;
+        
         &:hover{
             color: white;
-        }
-
-        @include large-up{
-            display: inline-block;
-            margin-left: $grid-base * 5;
-            width: auto;
         }
     }
 }

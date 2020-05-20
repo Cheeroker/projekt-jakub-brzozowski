@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #ebf5fc;
+  background-color: #EBF5FC;
   color: #302F2F;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
@@ -56,76 +56,39 @@ a:hover {
   padding-right: 15px;
 }
 
-@media (min-width: 800px) {
-  .o-col--md25 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 25%;
-            flex: 0 0 25%;
-    max-width: 25%;
-  }
+.o-col--lg25 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  max-width: 25%;
 }
 
-@media (min-width: 800px) {
-  .o-col--md33 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 33.3333%;
-            flex: 0 0 33.3333%;
-    max-width: 33.3333%;
-  }
+.o-col--lg33 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.3333%;
+          flex: 0 0 33.3333%;
+  max-width: 33.3333%;
 }
 
-@media (min-width: 800px) {
-  .o-col--md50 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
-    max-width: 50%;
-  }
+.o-col--lg66 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 66.6666%;
+          flex: 0 0 66.6666%;
+  max-width: 66.6666%;
 }
 
-@media (min-width: 1200px) {
-  .o-col--lg25 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 25%;
-            flex: 0 0 25%;
-    max-width: 25%;
-  }
+.o-col--lg50 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
 }
 
-@media (min-width: 1200px) {
-  .o-col--lg33 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 33.3333%;
-            flex: 0 0 33.3333%;
-    max-width: 33.3333%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .o-col--lg66 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 66.6666%;
-            flex: 0 0 66.6666%;
-    max-width: 66.6666%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .o-col--lg50 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .o-col--lg75 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 75%;
-            flex: 0 0 75%;
-    max-width: 75%;
-  }
+.o-col--lg75 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 75%;
+          flex: 0 0 75%;
+  max-width: 75%;
 }
 
 .o-container {
@@ -134,18 +97,7 @@ a:hover {
   padding-left: 15px;
   padding-right: 15px;
   width: 100%;
-}
-
-@media (min-width: 800px) {
-  .o-container {
-    max-width: 740px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .o-container {
-    max-width: 1140px;
-  }
+  max-width: 1140px;
 }
 
 .o-row {
@@ -160,15 +112,6 @@ a:hover {
       flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
-}
-
-@media (min-width: 800px) {
-  .o-row {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
 }
 
 .o-row--center-y {
@@ -215,23 +158,11 @@ a:hover {
 }
 
 .c-heading--level1 {
-  font-size: 1.5rem;
-}
-
-@media (min-width: 1200px) {
-  .c-heading--level1 {
-    font-size: 3rem;
-  }
+  font-size: 3rem;
 }
 
 .c-heading--level2 {
-  font-size: 1.125rem;
-}
-
-@media (min-width: 1200px) {
-  .c-heading--level2 {
-    font-size: 1.5rem;
-  }
+  font-size: 1.5rem;
 }
 
 .c-heading--level3 {
@@ -307,24 +238,18 @@ a:hover {
 
 .c-nav__item {
   color: #FFFFFF;
-  display: block;
+  display: inline-block;
   font-size: 0.875rem;
   padding-bottom: 7.5px;
   padding-top: 7.5px;
   text-align: center;
   width: 100%;
+  margin-left: 50px;
+  width: auto;
 }
 
 .c-nav__item:hover {
   color: white;
-}
-
-@media (min-width: 1200px) {
-  .c-nav__item {
-    display: inline-block;
-    margin-left: 50px;
-    width: auto;
-  }
 }
 
 .c-input {
@@ -419,14 +344,14 @@ a:hover {
   margin-bottom: 20px;
   margin-top: 20px;
   font-style: italic;
-  color: #1c384e;
+  color: #1C384E;
   font-weight: 500;
 }
 
 .t-site-categories__paragraph {
   padding-left: 10px;
   padding-right: 10px;
-  color: #1c384e;
+  color: #1C384E;
 }
 
 .t-site-footer__content {
@@ -443,13 +368,13 @@ a:hover {
 
 .t-site-footer__link {
   display: block;
-  color: #b2c8da;
+  color: #B2C8DA;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
 .t-site-footer__link:hover {
-  color: #b2c8da;
+  color: #B2C8DA;
 }
 
 .t-site-footer__heading {
@@ -465,7 +390,7 @@ a:hover {
 
 .t-site-footer__text {
   display: block;
-  color: #b2c8da;
+  color: #B2C8DA;
   margin-top: 10px;
 }
 
@@ -496,7 +421,7 @@ a:hover {
 
 .t-gray__text {
   font-size: 2rem;
-  color: #5c5656;
+  color: #5C5656;
 }
 
 .t-gray__text--bold {
@@ -533,7 +458,7 @@ a:hover {
 
 .u-background__footer {
   background: url("images/clipart3233790.png") center right no-repeat;
-  background-color: #1c384e;
+  background-color: #1C384E;
 }
 
 .u-textstyle__italic {
