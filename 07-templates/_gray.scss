@@ -1,0 +1,18 @@
+.t-gray{
+    margin-top: $grid-base;
+    margin-bottom: $grid-base;
+    text-align: center;
+
+    &__text{
+        font-size: $font-size-base*2;
+        color: $gray-light;
+        
+        &--bold{
+            font-weight: bold;
+        }
+
+        &--italic{
+            font-style: italic;
+        }
+    }
+}

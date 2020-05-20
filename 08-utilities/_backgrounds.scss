@@ -1,0 +1,13 @@
+.u-background{
+    &__shuttle{
+        background: url('images/bg-adbox.jpg') center center no-repeat;
+    }
+
+    &__black{
+        background-color: $black;
+    }
+
+    &__gray{
+        background-color: $gray-dark;
+    }
+}
