@@ -37,6 +37,13 @@
             max-width: 33.3333%;
         }
     }
+    
+    &--lg66{
+        @include large-up{
+            flex: 0 0 66.6666%;
+            max-width: 66.6666%;
+        }
+    }
 
     &--lg50{
         @include large-up{

@@ -30,9 +30,17 @@
     &--level5{
         font-size: $font-size-5;
     }
+
+    &--level6{
+        font-size: $font-size-heading;
+    }
     
     &--upper{
         text-transform: uppercase;
+    }
+
+    &--italic{
+        font-style: italic;                                                 
     }
 
     &--white{

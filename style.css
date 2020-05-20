@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #D3EAFA;
+  background-color: #ebf5fc;
   color: #302F2F;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
@@ -102,6 +102,15 @@ a:hover {
 }
 
 @media (min-width: 1200px) {
+  .o-col--lg66 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.6666%;
+            flex: 0 0 66.6666%;
+    max-width: 66.6666%;
+  }
+}
+
+@media (min-width: 1200px) {
   .o-col--lg50 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
@@ -175,9 +184,8 @@ a:hover {
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.5;
-  padding: .75rem 0;
+  padding: .60rem 0;
   text-align: center;
-  text-transform: uppercase;
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
   width: 220px;
@@ -188,54 +196,15 @@ a:hover {
 }
 
 .c-btn--primary {
-  background-color: #D3EAFA;
-  color: #3B99E1;
-}
-
-.c-btn--primary:hover {
-  background-color: #8ec9f2;
+  background: -webkit-gradient(linear, left bottom, left top, from(#2b92e0), to(#1d69a3));
+  background: linear-gradient(0deg, #2b92e0 0%, #1d69a3 100%);
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 
-.c-btn--accent {
-  background-color: #442444;
+.c-btn--newsletter {
+  background-color: linear-gradient(0deg, #2b92e0 0%, #1d69a3 100%);
   color: #FFFFFF;
-}
-
-.c-btn--accent:hover {
-  background-color: #120a12;
-  color: #FFFFFF;
-}
-
-.c-btn--dark-blue {
-  background-color: #442444;
-  color: #FFFFFF;
-}
-
-.c-btn--dark-blue:hover {
-  background-color: #120a12;
-  color: #FFFFFF;
-}
-
-.c-btn--light {
-  background-color: #FFFFFF;
-  color: #3B99E1;
-}
-
-.c-btn--light:hover {
-  background-color: #d9d9d9;
-  color: #3B99E1;
-}
-
-.c-btn--outline {
-  background-color: transparent;
-  border: 2px solid #FFFFFF;
-  color: #FFFFFF;
-}
-
-.c-btn--outline:hover {
-  border: 2px solid #d9d9d9;
-  color: #d9d9d9;
 }
 
 .c-heading {
@@ -276,8 +245,16 @@ a:hover {
   font-size: 0.875rem;
 }
 
+.c-heading--level6 {
+  font-size: 2rem;
+}
+
 .c-heading--upper {
   text-transform: uppercase;
+}
+
+.c-heading--italic {
+  font-style: italic;
 }
 
 .c-heading--white {
@@ -390,6 +367,56 @@ a:hover {
   text-align: justify;
 }
 
+.t-site-submission {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.t-site-submission__text {
+  color: #FFFFFF;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.t-site-submission__window {
+  text-align: center;
+  position: relative;
+}
+
+.t-site-submission__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+}
+
+.t-site-submission__heading {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.t-site-categories {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.t-site-categories__heading {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-style: italic;
+  color: #1c384e;
+  font-weight: 500;
+}
+
+.t-site-categories__paragraph {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #1c384e;
+}
+
 .t-gray {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -423,6 +450,19 @@ a:hover {
 
 .u-background__gray {
   background-color: #302F2F;
+}
+
+.u-background__navy-light {
+  background-color: #244E70;
+}
+
+.u-background__submission-window {
+  background: url("images/spacecraft.jpg") 0 0 no-repeat;
+}
+
+.u-background__footer {
+  background: url("images/clipart3233790.png") center right no-repeat;
+  background-color: #1c384e;
 }
 
 .u-textstyle__italic {

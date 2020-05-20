@@ -1,0 +1,28 @@
+.t-site-submission{
+    padding-bottom: $grid-base * 3;
+    padding-top: $grid-base * 3;
+
+    &__text{
+        color: $white;
+        text-align: justify;
+        line-height: $line-height-lg;
+    }
+
+    &__window{
+        text-align: center;
+        position: relative;
+    }
+
+    &__content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: $grid-base;
+    }
+
+    &__heading{
+        margin-bottom: $grid-base;
+        font-style: italic;
+    }
+}

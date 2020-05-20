@@ -10,4 +10,17 @@
     &__gray{
         background-color: $gray-dark;
     }
+
+    &__navy-light{
+        background-color: $blue-navy-light;
+    }
+
+    &__submission-window{
+        background: url('images/spacecraft.jpg') 0 0 no-repeat;
+    }
+
+    &__footer{
+        background: url('images/clipart3233790.png') center right no-repeat ;
+        background-color: $blue-navy;
+    }
 }
