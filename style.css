@@ -104,10 +104,10 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-left: -15px;
@@ -204,7 +204,6 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  /** Najwyższa ikona ma taką wysokość **/
   height: 60px;
   margin-bottom: 25px;
 }
@@ -463,5 +462,15 @@ a:hover {
 
 .u-textstyle__italic {
   font-style: italic;
+}
+
+.u-shadow{
+    filter: drop-shadow(2px 2px 2px black) drop-shadow(2px 2px 2px #3a3a3a);
+    -webkit-filter: drop-shadow(2px 2px 2px black) drop-shadow(2px 2px 2px #3a3a3a);
+}
+
+.u-shadow-button{
+    filter: drop-shadow(2px 2px 3px black) drop-shadow(2px 2px 3px #222222);
+    -webkit-filter: drop-shadow(2px 2px 3px black) drop-shadow(2px 2px 3px #222222);
 }
 /*# sourceMappingURL=style.css.map */
