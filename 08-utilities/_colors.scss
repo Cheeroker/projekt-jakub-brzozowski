@@ -1,3 +1,13 @@
 .u-color-blue{
     color: $blue-text;
 }
+
+.u-shadow{
+    filter: drop-shadow(2px 2px 2px black) drop-shadow(2px 2px 2px #3a3a3a);
+    -webkit-filter: drop-shadow(2px 2px 2px black) drop-shadow(2px 2px 2px #3a3a3a);
+}
+
+.u-shadow-button{
+    filter: drop-shadow(2px 2px 3px black) drop-shadow(2px 2px 3px #222222);
+    -webkit-filter: drop-shadow(2px 2px 3px black) drop-shadow(2px 2px 3px #222222);
+}
